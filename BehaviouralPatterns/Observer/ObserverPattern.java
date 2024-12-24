@@ -28,7 +28,6 @@ class WeatherStation implements Subject{
     public void setTemperature(float temprature) {
         this.temprature = temprature;
         notifyObserver();
-
     }
 
     
